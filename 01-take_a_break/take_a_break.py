@@ -1,5 +1,5 @@
 """"This example is a program that interrupts/pauses
-your study or work. Assuming your study seesion or work
+your study or work. Assuming your study session or work
 lasts for 8 hours, it reminds you to take a
 break after every 2hours from the time program starts running
 opening a url to your favorite music video"""
