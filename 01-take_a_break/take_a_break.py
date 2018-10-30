@@ -7,18 +7,14 @@ opening a url to your favorite music video"""
 import time
 import webbrowser
 
-current_time = time.ctime()
-print("Start time: " + current_time)
 
-total_breaks = 4  # Number of breaks to be taken
+print("Start time: " + time.ctime())
+total_breaks = 2  # Number of breaks to be taken
 break_count = 0  # Amount of times we've gone on break with an initial of 0.
 url = "https://www.youtube.com/watch?v=mFI4LFbOeDc"  # A url to a music video. Change it to your link of choice.
 
-
-
-
 while break_count < total_breaks:
-    time.sleep(7200)  # Waiting time before carrying out task, Time is measured in seconds
+    time.sleep(20)  # Waiting time before carrying out task, Time is measured in seconds
     webbrowser.open(url)
     break_count += 1
     print("Break Time:" + time.ctime())
