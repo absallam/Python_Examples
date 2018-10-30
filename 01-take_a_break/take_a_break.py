@@ -21,6 +21,5 @@ while break_count < total_breaks:
     print("Break Time:" + current_time)
     print("Number of breaks: %d" % (break_count))
 
-
-#Change the name <Absallam> to your name.
+# Change the name <Absallam> to your name.
 print("Hi Absallam, End of study session: " + current_time)
