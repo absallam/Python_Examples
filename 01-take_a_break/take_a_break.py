@@ -18,7 +18,7 @@ while break_count < total_breaks:
     webbrowser.open(url)
     break_count += 1
     print("Break Time:" + time.ctime())
-    print("Number of breaks: %d" % (break_count))
+    print("Number of breaks: %d" % break_count)
 
 # Change the name <Absallam> to your name.
 print("Hi Absallam, End of study session: " + time.ctime())
